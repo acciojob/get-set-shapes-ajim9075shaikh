@@ -19,10 +19,10 @@ get height(){
 }
 
 class Square extends Rectangle {
-	 constructor (side){
+	 constructor(side){
 		 super(side, side);
     }
-getArea() {
+  getArea() {
         return this.width * this.height;
     }
 
